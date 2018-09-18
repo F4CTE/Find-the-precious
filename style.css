@@ -1,0 +1,391 @@
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    margin: 10px auto;
+    width: 60%;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+}
+
+td {
+    width: 50%;
+    padding: 10px;
+}
+
+th {
+    background-color: #9e9e9e;
+    padding: 10px;
+}
+
+tr {
+    background-color: #e6e6e6;
+}
+
+tr:nth-child(even) {background-color: #ffffff;}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+
+label {
+    width: 15px;
+}
+
+input {
+    width: 90%;
+}
+
+select {
+    width: 92%;
+    margin-left: 15px;
+}
+
+textarea {
+    width: 92%;
+    margin-left: 15px;
+}
+
+header {
+    font-family: Arial, sans-serif;
+    background-color: #424242;
+    display: flex;
+}
+
+.headerTitle {
+    display: inline-block;
+    margin-left: 6px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color:  #e0e0e0;
+}
+
+.headerNav {
+    margin: auto;    
+}
+
+.nav-elt {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.nav-elt a {
+    color: #ffffff;
+    padding: 10px 20px;
+}
+
+.nav-elt a:hover {
+    background-color: #e0e0e0;
+    color: #424242;
+}
+
+/*Slider*/
+.sliderContainer {
+    display: flex;
+    height: 200px;
+    background-color: #eeeeee;
+    margin-top: 0px;
+}
+
+.sliderContainer p {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.sliderBtn {
+    height: 60px;
+    width: 60px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 60px;
+}
+
+#prevBtn {
+    margin-top: 70px;
+    margin-left: 20px;
+}
+
+#nxtBtn {
+    margin-top: 70px;
+    margin-left: 20px;    
+}
+
+.fa {
+    color: #424242;
+}
+
+.sliderText {
+    margin: auto;
+}
+
+.containerBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.btnFellow {
+    border: 1px solid rgba(255, 255, 255, 0.0);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 20px;
+    font-size: 14px;    
+}
+
+.fellowsContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fellowsCard {
+    padding: 5px;
+    border: 1px solid grey;    
+}
+
+.containerFellowsImg {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-size: 250px 250px;    
+}
+
+.containerFellowsImg > .fellowImg {
+    opacity: 0.5;     
+}
+
+.containerFellowsImg:hover > .fellowImg {
+    opacity: 1;     
+}
+
+.containerFellowsImg:hover > .fellowReward {
+    opacity: 0;     
+}
+
+.containerFellowsImg:hover > .fellowName {
+    opacity: 0;     
+}
+
+.fellowReward {
+    position: absolute;
+    top: 10px;
+    left: 27px;
+    z-index: 10;
+    width: 190px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.08em;
+    padding: 6px;
+    background-color: #bdbdbd;
+    color: white;
+    border-radius: 4px;
+}
+
+.fellowName {
+    position: absolute;
+    top: 100px;
+    left: 27px;
+    z-index: 10;
+    width: 190px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.08em;
+    color: white;   
+}
+
+.fellowImg {
+    z-index: 1;
+    height: 250px;
+    width: 250px;
+}
+
+
+.rewardDescription {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.rewardText {
+    height: 100px;
+    overflow: hidden;
+}
+
+.rewardImage {
+    width: 140px;
+    height: 140px;
+    border: 1px solid rgba(255, 255, 255, 0.0);
+    border-radius: 8px;
+}
+
+
+.contactBtn {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.0);
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 14px; 
+}
+
+.huntersCardContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.huntersCard {
+    display: flex;
+}
+
+.huntersCardDescription {
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hunterProfilePic {
+    border: 1px solid rgba(255, 255, 255, 0.0);
+    border-radius: 8px;
+}
+
+.hunterName{
+    margin-top: 0px;
+}
+
+.hunterDescription {
+    margin-top: auto;
+}
+
+.likeBtn {
+    display: block;
+    align-self: flex-end;
+    margin: auto;
+}
+
+.ringCard {
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.cardTitleContainer{
+    background-color: #9e9e9e;
+    padding: 1px 0px 1px 0px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.ringCardTitle {
+    margin: 6px;
+    font-size: 1.02em;
+    font-weight: bold;
+}
+
+.ringCardSubTitle {
+    margin-left: 24px;    
+}
+
+.gollumQuote {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gollumPrecious, .gollum {
+    font-size: 1.02em;
+    font-weight: bold;
+}
+
+.gollum {
+    text-align: right;
+    color: #9e9e9e;
+}
+
+.gollumText {
+    padding-top: 20px;
+}
+
+.gollumImg {
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 110px;
+    margin-bottom: 2px;
+}
+
+
+.joinDescription {
+    display: flex; 
+    justify-content: space-around;
+}
+
+.joinText {
+    height: 100px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.joinImage {
+    width: 140px;
+    height: 140px;
+    border: 1px solid rgba(255, 255, 255, 0.0);
+    border-radius: 8px;
+}
+
+
+.infoBtn {
+    display: block;
+    margin: 0 auto;
+    background: white;
+    border: 2px solid rgb(220, 220, 220);
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 14px; 
+}
+
+footer {
+    display: flex;
+    border: 1px solid #000000;
+    background-color: #424242;
+    justify-content: space-around;
+    margin: 2px
+}
+
+.footerLinkContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.part3 {
+    font-weight: bold;
+    align-content: space-around;
+}
+
+.footerLink {
+    color: #F5F5F5;
+    margin: 3px;
+    padding: 3px;
+}
+
+.footerLinkBig {
+    margin-top: auto;
+    margin-bottom: auto;
+}
